@@ -45,7 +45,7 @@ end
 
 def find_the_cheese(strings)
   new_string = ""
-  strings.detect? {|cheese|}
+  strings.detect {|cheese|}
   new_string.push(cheese)
 end
 
