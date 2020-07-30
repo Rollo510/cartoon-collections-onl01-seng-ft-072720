@@ -28,18 +28,8 @@ end
 
 
 def long_planeteer_calls(array)
-  new_array = []
-  if array.all? do |num|
-    num.length <= 4
-      new_array.push(false)
-    end
-  end
-  if array.any? do |num|
-    num.length > 4
-      new_array.push(true)
-    end
-  end
-  return new_array
+  i = 0
+  
 end
 
 
