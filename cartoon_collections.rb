@@ -39,7 +39,7 @@ def long_planeteer_calls(array)
       new_array.push(true)
     end
   end
-  
+  return new_array
 end
 
 
