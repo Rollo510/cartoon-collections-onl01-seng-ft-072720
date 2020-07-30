@@ -33,6 +33,7 @@ def long_planeteer_calls(array)
      if num.length > 4
        return true
     end
+      
   end
 end
 
