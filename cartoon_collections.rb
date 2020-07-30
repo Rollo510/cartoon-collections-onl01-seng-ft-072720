@@ -28,7 +28,8 @@ end
 
 
 def long_planeteer_calls(array)
-  
+  new_array = []
+  array.findall?
 end
 
 
