@@ -29,8 +29,8 @@ end
 
 def long_planeteer_calls(array)
   new_array = []
-  array.any do |num|
-    if num.length > 4
+  array.each do |num|
+    if any? num.length > 4
       return true
     end
   end
