@@ -47,7 +47,6 @@ def find_the_cheese(strings)
   new_string = ""
   strings.find {|cheese|}
   cheese_types.include?(cheese)
-  end
 end
 
 
