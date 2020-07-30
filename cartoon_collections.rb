@@ -44,8 +44,7 @@ end
 
 
 def find_the_cheese(strings)
-  i = 0
-  strings.find {|cheese| cheese.include?}
+  strings.detect {|cheese|}
 
   
   
