@@ -30,9 +30,9 @@ end
 def long_planeteer_calls(array)
   new_array = []
   array.find do |num|
-      new_array.push(num.length > 4)
+     if num.length > 4
+       return true
   end
-  return new_array
 end
 
 
