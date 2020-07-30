@@ -43,17 +43,12 @@ end
 
 
 
+def find_the_cheese(strings)
+  i = 0
+  strings.find {|cheese| cheese.include?}
 
-
-
-
-
-
-
-
-
-def find_the_cheese# code an argument here
-  # the array below is here to help
+  
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
