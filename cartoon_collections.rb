@@ -27,14 +27,14 @@ end
 
 
 
-def long_planeteer_calls(array)
-  i = 0
-  if array.any? do |num|
-    num.length > 4
+def long_planeteer_calls(array) 
+  i = 0 
+  if  array.any? {|i| i.length > 4}
     return true
-  end
-    i = i + 1
-  end
+  else 
+    return false
+  i = i + 1
+  end 
 end
 
 
