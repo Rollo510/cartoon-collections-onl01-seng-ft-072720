@@ -46,15 +46,9 @@ end
 def find_the_cheese(strings)
   new_string = ""
   strings.detect {|cheese|}
-  new_string.push("#{cheese}")
 end
 
 
-
-
-
-
-cheese_types = ["cheddar", "gouda", "camembert"]
 
 
 
